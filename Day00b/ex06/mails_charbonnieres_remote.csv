@@ -1,0 +1,1 @@
+grep 'Remote\| Charbonnieres' it_alumi.cvs | awk -F ',' ''{print $6}'	
